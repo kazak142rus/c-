@@ -10,13 +10,13 @@ Console.WriteLine("Введите число 3");
 int c = Convert.ToInt32(Console.ReadLine());
 int max = 0;
 if (max<a){
- max = a;
+    max = a;
 } if (max<b){
     max = b;
 } if (max<c){
     max = c;
 
 }
-    Console.WriteLine($"Максимальное из введенных чисел : {max}");
+Console.WriteLine($"Максимальное из введенных чисел : {max}");
 
 
