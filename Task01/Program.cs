@@ -9,10 +9,11 @@ Console.WriteLine("Hello, enter Number 1");
 int number1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Enter Number 2");
 int number2 = Convert.ToInt32(Console.ReadLine());
-if (number1 == number2*number2)
+if (number1 == number2 * number2)
 {
     Console.WriteLine($"Number 1({number1}) it is square of Number 2({number2})");
 }
-else{
+else
+{
     Console.WriteLine($"Number 1({number1}) it is not square of Number 2({number2})");
 };
